@@ -1,0 +1,9 @@
+name: SimpleSudo
+version: '${project.version}'
+main: de.lumoxd.simplesudo.SimpleSudo
+api-version: 1.13
+prefix: SUDO
+authors: [ lumoxd ]
+commands:
+  sudo:
+    permission: simplesudo.sudo
